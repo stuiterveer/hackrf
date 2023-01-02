@@ -107,7 +107,11 @@ When configuring an Opera Cake, the address may be specified with the ``--addres
 
 If the address is unspecified, 0 is assumed. It is only necessary to specify the address if the address has been changed with the addition of jumpers, typically required only if multiple Opera Cakes are stacked onto a single HackRF One.
 
- 
+Connecting
+^^^^^^^^^^
+
+The pin headers used to connect the Opera Cake to the HackRF One are not used to pass any signals through. Instead, connect a cable between HackRF One's antenna connector and the desired port on the Opera Cake. For instance: if you manually configured bank A to bridge to A2, connect your HackRF One to A0.
+
 Modes of Operation
 ~~~~~~~~~~~~~~~~~~
 
